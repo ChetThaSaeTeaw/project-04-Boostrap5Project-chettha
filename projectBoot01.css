@@ -1,0 +1,60 @@
+*{
+    font-family: 'Karantina', cursive;
+}
+.carousel-item {
+    height: 550px;
+}
+
+.carousel-image-1 {
+    background-image: url("Full-HD-PUBG-Wallpaper.jpg");
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background-image: url("99-998490_pubg-wallpaper-4k-pubg-4k-wallpapers-for-pc.jpg");
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background-image: url("maxresdefault.jpg");
+    background-size: cover;
+}
+
+.carousel-image-4 {
+    background-image: url("pubg-mobile-4k-7d.jpg");
+    background-size: cover;
+}
+
+.carousel-image-5 {
+    background-image: url("pubg-girl-gun-7m-2560x1700.jpg");
+    background-size: cover;
+}
+
+#about {
+    min-height: 200px;
+    position: relative;
+    background-image: url("download_bg_obt-1233x768.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+}
+
+.col-md-4 {
+    transition: .3s;
+}
+
+.col-md-4:hover{
+    box-shadow: 2px 2px 15px blue;
+}

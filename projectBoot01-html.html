@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="veiwport" content="width=device-width, intital-scale=1.0">
+        <link rel="stylesheet" href="projectBoot01.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@500;400&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <title>ProjectZero-Bootstrap</title>
+    </head>
+    <body>
+        <!-- Create Header -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-info fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand fw-bolder">BenZ-X3</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navBarCollapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown"><a href="#about" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a href="#about" class="dropdown-item">About-1</a></li>
+                                <li><a href="#about" class="dropdown-item">About-2</a></li>
+                                <li><a href="#about" class="dropdown-item">About-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+                        <li class="nav-item dropdown"><a href="#product" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
+                            <ul class="dropdown-menu bg-warning">
+                                <li><a href="#product" class="dropdown-item">Product-1</a></li>
+                                <li><a href="#product" class="dropdown-item">Product-2</a></li>
+                                <li><a href="#product" class="dropdown-item">Product-3</a></li>
+                                <li><a href="#product" class="dropdown-item">Product-4</a></li>
+                                <li><a href="#product" class="dropdown-item">Product-5</a></li>
+                            </ul> 
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Create slider -->
+        <section id="Carousel">
+            <div class="carousel slide mt-5" data-bs-ride="carousel" id="slider-1">
+                <ol class="carousel-indicators">
+                    <button class="active" data-bs-target="#slider-1" data-bs-slide-to="0"></button>
+                    <button data-bs-target="#slider-1" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#slider-1" data-bs-slide-to="2"></button>
+                    <button data-bs-target="#slider-1" data-bs-slide-to="3"></button>
+                    <button data-bs-target="#slider-1" data-bs-slide-to="4"></button>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-image-1 active">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3 fw-bold">PubG</h1>
+                                <p>Game of survaival No01.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-image-2">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3 fw-bold">PubG</h1>
+                                <p>Game of survaival No01.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-image-3">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3 fw-bold">PubG</h1>
+                                <p>Game of survaival No01.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-image-4">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3 fw-bold">PubG</h1>
+                                <p>Game of survaival No01.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-image-5">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3 fw-bold">PubG</h1>
+                                <p>Game of survaival No01.</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#slider-1">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#slider-1">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Section -->
+        <section id="service" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center mb-4">
+                        <i class="fab fa-steam fa-3x mb-2"></i>
+                        <h3>Steam</h3>
+                        <p>ในอัปเดตล่าสุดนี้จะได้พบกับ Survivor Pass ใหม่ล่าสุด Survivor Pass: Pajama Party ที่ผู้เล่นจะสามารถปลดล็อกชุดแฟชั่นที่ออกแบบมาเป็นพิเศษจากการเพิ่มระดับ Pass ด้วยการเล่นตามปกติ หรือการทำภารกิจของ Survivor Pass ต่างๆ</p>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <i class="fas fa-coins fa-3x mb-2"></i>
+                        <h3>Donation</h3>
+                        <p> แล้วพบกับการเปลี่ยนแปลงของสะพานเชื่อมต่อระหว่างเกาะ Erangel กับ Sosnovka ที่จะทำให้การต่อสู้บนสะพานพลิกแพลงได้มากขึ้น พร้อมกับการปรับสมดุลการยิงของผู้โดยสารบนพาหนะ</p>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <i class="fas fa-book-open fa-3x mb-2"></i>
+                        <h3>Infomation</h3>
+                        <p>ในเดือนพฤศจิกายนปีที่แล้ว เราสอบถามถึงความคิดเห็นจากผู้เล่นว่ามีพื้นที่ใดบนแผนที่ Erangel ที่ควรจะมีการเปลี่ยนแปลงบ้าง และจากการแสดงความคิดเห็นต่างๆ เราได้ตัดสินใจที่จะทำการปรับปรุงสะพานที่เชื่อมกับเกาะ Sosnovka
+                        โดยได้เพิ่มทางเลือกให้กับผู้ที่ต้องการจะข้ามสะพานให้มากขึ้น</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="p-5">
+            <div class="dark-overlay">
+                <div class="row">
+                    <div class="col">
+                        <div class="container pt-5">
+                            <h1>About</h1>
+                            <p>Adress : Bankkok An article is any member of a class of dedicated words that are used with noun phrases to mark the identifiability of the referents of the noun phrases. The category of articles constitutes a part of speech. In English, both "the" and "a/an" are articles, which combine with a noun to form a noun phrase.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- product -->
+        <section id="product" class="p-5">
+            <div class="container">
+                <h1 class="text-center">Portfolio</h1>
+                <p class="text-center">An article is any member of a class of dedicated words that are used with noun phrases to mark the identifiability of the referents of the noun phrases. The category of articles constitutes a part of speech. In English, both "the" and "a/an" are articles, which combine with a noun to form a noun phrase.</p>
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://i.ytimg.com/vi/v-7XAgT1Z1w/maxresdefault.jpg" alt="NewState"/>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/03/08/962783-pubg.jpg" alt="NewState"/>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://play-lh.googleusercontent.com/q_Xssm_hVKNfSV6K-bL2BIc00BmykU4qHuJ-h2TWyDlhyheR9GQm8oV6Hc1eRQ12KJM" alt="NewState" style="height: 235px;"/>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://sensortower-itunes.s3.us-east-1.amazonaws.com/blog/2020/06/pubg-mobile-hits-3-billion-lifetime-revenue.jpg" alt="NewState" width="500px" style="height: 235px;"/>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://www.pubg.com/wp-content/uploads/2020/10/3-3-1365x768.png" alt="NewState"/>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://i.ytimg.com/vi/YLwCfTA6LCQ/maxresdefault.jpg" alt="NewState"/>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://www.pubg.com/wp-content/uploads/2020/10/G-coin-2.png" alt="NewState" style="height: 235px;"/>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://www.91-cdn.com/hub/wp-content/uploads/2020/11/PUBG-Mobile-3.jpg" alt="NewState" style="height: 235px;"/>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://i.ytimg.com/vi/OQ-WD2N9Fis/maxresdefault.jpg" alt="NewState"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <footer class="text-center p-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <p>Copyright &copy; Benz-X3 Offcial 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+        <!-- Create Modal -->
+        <section id="modal">
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Contact</h5>
+                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="" class="form-label">ID</label>
+                                    <input type="text" class="form-control is-valid" placeholder="ป้อนID">
+                                    <p class="valid-feedback"> IDถูกต้อง</p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="form-label">Password</label>
+                                    <input type="password" class="form-control is-invalid" placeholder="ป้อนรหัสผ่าน">
+                                    <p class="invalid-feedback"> รหัสผ่านไม่ถูกต้อง</p>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">ชื่อ-นามสกุล</label>
+                                    <input class="form-control is-valid" type="text" placeholder="ป้อนชื่อ-นามสกุล"/>
+                                    <p class="valid-feedback"> ชื่อ-นามสกุลถูกต้อง</p>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">อีเมล์</label>
+                                    <input class="form-control is-invalid" type="email" placeholder="กรุณาป้อนอีเมล์"/>
+                                    <p class="invalid-feedback"> อีเมล์ไม่ถูกต้อง</p>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">เบอร์ติดต่อ</label>
+                                    <input class="form-control" type="number" placeholder="กรุณาป้อนเบอร์ติดต่อ"/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="form-label">Job</label>
+                                    <select class="form-select">
+                                        <option>นักเรียน/นักศึกษา</option>
+                                        <option>อาชีพอิสระ</option>
+                                        <option>ข้าราชกาล</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">รายละเอียด</label>
+                                    <textarea class="form-control" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="form-group mt-2">
+                                    <div class="form-check">
+                                        <label for="" class="form-label">
+                                            <input class="form-check-input" type="checkbox"/> ฉันยอมรับเงื่อนไข
+                                        </label>
+                                        <p class="text-muted">ข้อมูลที่ป้อนในแบบฟอร์มถูกต้องสมบูรณ์และยอมรับในการส่งข้อมูลให้กับองค์กรดังกล่าวและหากข้อมูลไม่ถูกต้องข้าพเข้ายินดียกเลิกการทำสัญญาทั้งหมด</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-success">ส่งข้อมูล</button>
+                            <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">ยกเลิก</button>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
